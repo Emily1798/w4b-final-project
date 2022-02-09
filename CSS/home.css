@@ -1,0 +1,26 @@
+*{
+   float: left; 
+   padding: 0px;
+    margin: 0px;
+    max-width: 100px;
+    overflow: hidden;
+}
+
+.topnav {
+    background-color: grey;
+    overflow: hidden;
+}
+
+/* Style links inside nav bar */
+.topnav a {
+    float: left;
+    color: beige;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+.topnav a:hover {
+    background-color: blue;
+    color: green;
+}
