@@ -5,12 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="CSS/nav.css">
     <link rel="stylesheet" href="CSS/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ddb78a7229.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <li><a href="home.html" target="blank">Home</a></li>
-    <li><a href="about.html" target="blank">About</a></li>
-    <li><a href="contact.html" target="blank">Contact</a></li>
-    
-</body>
+    <body>
+        <header>
+            <div class="header">
+                <logo> <img src="images/T.png" width="100px" height="100px" alt="Thompson photograpy logo"></logo>
+                <nav>
+                    <ul>
+                        <li><a href="home.html" target="blank">Home</a></li>
+                        <li><a href="about.html" target="blank">About</a></li>
+                        <li><a href="contact.html" target="blank">Contact</a></li>
+                  </ul>
+                </nav>
+            </div>     
+        </header>
+        <h1>Contact Us Today</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi laborum incidunt recusandae earum repudiandae similique animi facere quaerat repellat non? Aperiam officia maxime commodi optio illum, repudiandae sit esse sunt.</p>
+        <div class="container">
+            <form
+              action="mailto:andrew.sch.j@gmail.com"
+              method="post"
+              enctype="text/plain"
+            >
+              <label for="fname">First Name</label>
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your name.."
+              />
+      
+              <label for="lname">Last Name</label>
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Your last name.."
+              />
+      
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Email..." />
+      
+              <label for="subject">Subject</label>
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="How Can We Help!"
+                style="height: 200px;"
+              ></textarea>
+      
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+          <footer>
+            <p>Author: Emily Thompson</p>
+            <p><a href="mailto:emily.thompson@gmail.com">emily.thompson1798@gmail</a></p>
+            <p>Phone: 559.559.5555</p>
+            <p>Adress: 1234 Doe Ave </p>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
+          </footer>
+        
+    </body>
 </html>
