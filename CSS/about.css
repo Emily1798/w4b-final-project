@@ -1,3 +1,69 @@
-*{
+
+html{
     font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+body {
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+ }
+
+h1{
+    margin-left: 40px;
+}
+
+
+p{
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.video{
+    float: left;
+    padding: 20px;
+    margin: 20px
+}
+
+.map{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 80px;
+}
+
+
+
+footer{
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    height: 60px;
+    background-color:  rgb(122, 125, 132);
+}
+
+.icon{
+float: right;
+}
+
+.fa-instagram{
+    color:rgb(6, 8, 10);
+    padding: 20px;
+
+}
+
+.fa-facebook{ 
+    color: rgb(6, 8, 10);
+    padding: 20px;
+}
+
+.fa-twitter{
+    color:rgb(9, 11, 12);
+    padding: 20px;
 }

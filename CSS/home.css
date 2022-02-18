@@ -1,3 +1,37 @@
-*{
+html{
     font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
 }
+
+footer{
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    height: 80px;
+    background-color:  rgb(122, 125, 132);
+}
+
+.icon{
+float: right;
+}
+
+.fa-instagram{
+    color:rgb(6, 8, 10);
+    padding: 20px;
+
+}
+
+.fa-facebook{ 
+    color: rgb(6, 8, 10);
+    padding: 20px;
+}
+
+.fa-twitter{
+    color:rgb(9, 11, 12);
+    padding: 20px;
+}
+
+
